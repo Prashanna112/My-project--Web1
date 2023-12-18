@@ -1,0 +1,60 @@
+.flex-container {
+    display: flex;
+    justify-content:flex-start;
+    background-color: rgb(217 , 129,94);
+    flex-flow: wrap;
+    height: 300px;
+    align-items: center;
+
+}
+h1{
+    text-align:center;
+    color: #320f8b;
+    
+}
+.flex-container> div {
+    background-color: #320f8b;
+    width: 100px;
+    height:100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue
+    
+
+}
+
+#div1 {
+    background-color: aqua;
+    color: #320f8b;
+    flex-grow: 0.2;
+    align-self: baseline;
+}
+
+#div2 {
+    background-color: burlywood;
+    color: rgb(130, 117, 16);
+    flex-grow: 0.2;
+}
+
+#div3 {
+    background-color:thistle;
+    color: blueviolet;
+    flex-grow: 0.2;
+    align-self: self-end;
+}
+
+#div4 {
+    background-color: greenyellow;
+    color: rgb(112, 136, 216);
+    flex-grow: 0.2;
+}
+
+
+#div5 {
+    background-color: sandybrown;
+    color: rgb(112, 216, 185);
+    flex-grow: 0.2;
+    order: -4;
+}
+
